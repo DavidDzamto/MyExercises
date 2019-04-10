@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+}
+
+.firstDiv{
+    height: 665px;
+}
+
+.backGround{
+    height: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-inverse{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 0;
+    z-index: 99;
+}
+
+.dsa{
+    transform: translateY(-36%);
+}
+
+.top{
+    padding: 0 18%;
+}
+
+.ul{
+    list-style-type: none;
+    font-size: 10px;
+    padding-top: 3.5%;
+}
+
+.ma{
+    margin-right: 20px;
+}
+
+.fa-sort-down{
+    margin-left: 5px;
+    transform: translateY(-15%);
+}
+
+.bgimg{
+    background-image: url(../imgs/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 920px;
+}
+
+.img2{
+    background-image: url(../imgs/mountt.jpg);
+}
+
+.img3{
+    background-image: url(../imgs/mount.jpg);
+}
+
+.glyphicon{
+    transform: translateY(300%);
+}
+
+.naslov{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0% 35%;
+    transform: translateY(225%);
+}
+
+.buttonExplore{
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 30px;
+    font-size: 12px;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 13% / 50%;
+}
+
+.buttonExplore:hover{
+    cursor: pointer;
+    background-color: tomato;
+}
+
+.secondDiv{
+    height: 700px;
+    padding: 0% 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.goren{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.hr{
+    width: 15%;
+    border: 1px solid #2196F3;
+}
+
+.dolen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.slika{
+    width: 25%;
+    background-image: url(../imgs/balloon.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 3.8%;
+}
+
+.boxes{
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10% 2%;
+    margin-bottom: 11%;
+}
+
+.iv{
+    font-size: 40px;
+    color: #2196F3;
+    margin-bottom: 5%;
+}
+
+.iv:hover{
+    cursor: pointer;
+    color: tomato;
+}
+
+.tirthDiv{
+    height: 580px;
+    background-color: whitesmoke;
+    padding: 5% 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slika2{
+    width: 40%;
+    background-image: url(../imgs/coast.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.lista{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.podlista{
+    display: flex;
+    list-style-type: none;
+}
+
+.fa-check-circle{
+    transform: translateY(15%);
+    padding-right: 80%;
+}
+
+.le{
+    transform: translateY(10%);
+}
+
+.con{
+    transform: translateX(35%);
+}
+
+.forthDiv{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slikaa{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../imgs/island.jpg);
+    background-position: center;
+    background-size: cover;       
+}
+
+.lov{
+    transform: translateY(40%);
+}
+
+.ov{
+    transform: translate(0);
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.happy{
+    padding: 0% 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dav{
+    color: #2196F3;
+    font-size: 25px;
+}
+
+.dav:hover{
+    cursor: pointer;
+    color: tomato;
+}
+
+.fifthDiv{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.blue{
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2196F3;
+
+}
+
+.blue1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    color: white;
+}
+
+.fa-comments{
+    font-size: 40px;
+}
+
+.img{
+    width: 8%;
+    height: 20%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    transform: translateY(272%);
+}
+
+.white{
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.white1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.whiteSpan{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 10px;
+}
+
+.sixthDiv{
+    height: 700px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 4%;
+}
+
+.kocki{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 20%;
+}
+
+.tocak{
+    height: 410px;
+    width: 31%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.tocak1{
+    height: 50%;
+    background-image: url(../imgs/coast.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.tocak2{
+    background-image: url(../imgs/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.tocak3{
+    background-image: url(../imgs/mountain.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.h3{
+    padding: 0;
+    margin: 0;
+}
+
+.but{
+    font-size: 10px;
+    padding: 10px 18px;
+    border-radius: 18% / 50%;
+}
+
+.seventhDiv{
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 5% 20%;
+}
+
+.aboutUs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aboutUs1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.li1{
+    margin-bottom: 4px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.li2{
+    margin-bottom: 20px;
+}
+
+.hoover:hover{
+    color: tomato;
+    cursor: pointer;
+}
+
+a:link{
+    text-decoration: none!important;
+}
+
+.a:link{
+    color: #aaa;
+}
+
+.a:visited{
+    color: #aaa;
+}
+
+.posleden{
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.stickyy{
+    position: -webkit-sticky;
+    position: sticky;
+    z-index:99;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+.a1:link{
+    color: white;
+}
+
+.a1:visited{
+    color: white;
+}
+
+.a2:link{
+    color: black;
+}
+
+.a2:visited{
+    color: black;
+}
+
+.a3:link{
+    color: #2196F3;
+}
+
+.a3:visited{
+    color: #2196F3;
+}
+
+.ddm{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ddmm{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+.mmd{
+    background-color: white;
+}
+
+.topp{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20%;
+}
+
+.ulul{
+    display: flex;
+    list-style-type: none;
+    font-size: 10px;
+    padding-top: 2.5%;
+}
+
+.ddnn:hover .dropdown-menu{
+    display: block;
+}
+
+.navbar-brand{
+    cursor: default;
+}
