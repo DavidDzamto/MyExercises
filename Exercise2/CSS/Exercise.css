@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+
+.firstDiv{
+    background-color: whitesmoke;
+    padding: 100px;
+}
+
+caption{
+    font-size: 25px;
+    padding: 6px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+thead{
+    background-color: rgba(24, 207, 24, 0.6);
+    color: white;   
+}
+
+th{
+    border: 1px solid;
+    border-radius: 9%;
+    padding: 10px;
+}
+
+td{
+    text-align: center;
+    border: 1px solid rgba(24, 207, 24, 0.6);
+    padding: 10px;
+    background-color: white;
+}
+
+.table{
+    margin-left: 27%;
+}
+
+table tr:nth-child(1) td:hover{
+    background-color: tomato;
+    color: white;
+}
+
+table tr:nth-child(4) td:hover{
+    background-color: tomato;
+    color: white;
+}
+
+table tr:nth-child(2) td:hover{
+    background-color: orange;
+    color: white;
+}
+
+table tr:nth-child(5) td:hover{
+    background-color: orange;
+    color: white;
+}
+
+table tr:nth-child(3) td:hover{
+    background-color: blue;
+    color: white;
+}
+
+table tr:nth-child(6) td:hover{
+    background-color: blue;
+    color: white;
+}
