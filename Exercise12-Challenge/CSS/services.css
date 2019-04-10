@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bgimg{
+    height: 400px;
+    background-image: url(../imgs/image1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.check{
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.hoover{
+    padding: 10px;
+    margin: 5px;
+    border-left: 3px solid white;
+}
+
+.hoover:hover{
+    cursor: pointer;
+}
+
+.a{
+    color: white;
+}
+
+.a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.borderNone{
+    border:none!important;
+}
+
+@media  (min-width : 768px) and (max-width : 1023px){
+    .m1{
+        width: 33.3%;
+        float: left;
+    }
+
+    .mr1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .m2{
+        width: 40%;
+        float: left;
+    }
+}

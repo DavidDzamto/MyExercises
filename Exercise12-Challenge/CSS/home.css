@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bgimg{
+    height: 430px;
+    background-image: url(../imgs/image1.jpg);
+    background-size: cover;
+}
+
+.bgimg2{
+    height: 430px;
+    background-image: url(../imgs/image2.jpg);
+    background-size: cover;
+}
+
+.bgimg3{
+    height: 430px;
+    background-image: url(../imgs/image3.jpg);
+    background-size: cover;
+}
+
+.sliderContent{
+    color: white;
+}
+
+.icons{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.bgimg4{
+    background-image: url(../imgs/lights.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bttn{
+    background-color: white;
+    color: red;
+}
+
+.bgimg5{
+    background-image: url(../imgs/media.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bgDark{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.mgTop30{
+    margin-top: 30px;
+}
+
+.pointer:hover{
+    cursor: pointer;
+}
+
+.hoover{
+    padding: 10px;
+    margin: 5px;
+    border-left: 3px solid white;
+}
+
+.hoover:hover{
+    cursor: pointer;
+}
+
+.a{
+    color: white;
+}
+
+.a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.img{
+    width: 100%;
+}
+
+.mb{
+    float: left;
+}
+
+@media (max-width:767px){
+    .mt{
+        width: 95%;
+    }
+
+    .mb{
+        float: none;
+    }
+}
+
+@media  (min-width : 768px) and (max-width : 1023px){
+    .m1{
+        width: 33.3%;
+        float: left;
+    }
+
+    .m2{
+        width: 50%;
+        float: left;
+        margin-top: 0!important;
+    }
+
+    .m3{
+        padding-bottom: 20px;
+    }
+    
+    .m4{
+        width: 17%;
+    }
+
+    .m5{
+        display: flex;
+        justify-content: center;
+    }
+
+    .mt{
+        width: 70%;
+        transform: translateX(20%);
+    }
+
+    .mt2{
+        width: 70%;
+        transform: translateX(22%);
+    }
+
+}
