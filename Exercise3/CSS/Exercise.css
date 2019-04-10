@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+}
+
+.fixed{
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 0.4%;
+    font-size: 12px;
+}
+
+.menu{
+    float: right;
+    margin-right: 2%;  
+    padding: 0.5% 0%;
+}
+
+.forty{
+    margin-left: 1%;
+    padding: 0.5% 0%;
+    float: left;
+}
+
+.html{
+    margin-left: 3%;
+    padding: 0.5% 0%;
+    float: left;
+}
+
+.firstDiv{
+    background-color: black;
+    color: white;
+    padding: 8% 3%;
+}
+
+.firstP{
+    width: 20%;
+    text-transform: uppercase;
+    margin-left: 1%;
+    font-size: 12px;
+    float: left;
+}
+
+.button{
+    margin-top: 1%;
+    background-color: black;
+    color: white;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid rgb(156, 156, 156);
+    border-bottom: 2px solid rgb(156, 156, 156);
+    padding: 0.5% 1%;
+}
+
+.secondDiv{
+    width: 30%;
+    background-color: blue;
+    color: white;
+    padding: 3.01% 3%;
+    float: left;
+}
+
+.tirthDiv{
+    width: 60.2%;
+    background-color: brown;
+    color: white;
+    padding: 1.2% 1.9%;
+    float: right;
+}
+
+.forthDiv{
+    width: 60.2%;
+    background-color: purple;
+    color: white;
+    padding: 1.2% 1.9%;
+    float: left;
+}
+
+.fifthDiv{
+    width: 30%;
+    background-color: orange;
+    color: white;
+    padding: 3%;
+    float: right;
+}
+
+.sixthDiv{
+    width: 60.2%;
+    background-color: green;
+    color: white;
+    padding: 1.2% 1.9%;
+    float: right;
+}
+
+.seventhDiv{
+    width: 30%;
+    background-color: palevioletred;
+    color: white;
+    padding: 3%;
+    float: left;
+}
+
+.eighthDiv{
+    background-color: grey;
+    color: white;
+    padding: 3%;
+    float: left;
+    width: 94%;
+}
+
+.secondButton{
+    margin-top: 1%;
+    background-color: grey;
+    color: white;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid rgb(53, 53, 53);
+    border-bottom: 2px solid rgb(53, 53, 53);
+    padding: 0.5% 1%;
+}
+
+.information{
+    float: left;
+    background-color: black;
+    color: white;
+    width: 60%;
+    border-right: 1px solid white;
+}
+
+.name{
+    float: left;
+    padding: 7% 0% 2% 4%;
+   
+}
+
+.email{
+    float: left;
+    margin-left: 40%;
+    padding: 7% 0% 2% 0%;
+}
+
+.visible{
+    float: left;
+    margin-left: 20%;
+    padding: 3% 0% 7%;
+    visibility: hidden;
+}
+
+.textArea{ 
+    float: left;
+    margin-left: 4%;
+    padding-bottom: 2%;
+}
+
+.visible2{
+    float: left;
+    margin-left: 30%;
+    padding-bottom: 3%;
+    visibility: hidden;
+}
+
+.boxName{
+    float: left;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    padding-right: 15%; 
+}
+
+.boxEmail{
+    margin-left: 8%;
+    margin-bottom: 3%;
+    padding-right: 15%;
+
+}
+
+.boxTextArea{
+    margin-left: 4%;
+    padding-right: 35%;
+}
+
+.submit{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    color: white;
+    background-color: black;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid rgb(156, 156, 156);
+    border-bottom: 2px solid rgb(156, 156, 156);
+    padding: 1% 2%;
+}
+
+.posleden{
+    float: left;
+    background-color: black;
+    color: white;
+    width: 39.92%;
+    border-bottom: 1px solid white;
+}
+
+.posledenH4{
+    float: left;
+    margin-left: 10%;
+    margin-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 19.15%;
+}
+
+.posledenSpan{
+    float: left;
+    padding-top: 3%;
+    padding-right: 50%;
+    padding-bottom: 5%;
+}
+
+.posleden1{
+    float: left;
+    background-color: black;
+    color: white;
+    width: 39.92%;
+}
