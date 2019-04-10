@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.img{
+    height: 50px;
+}
+
+.slider{
+    background-image: url("../images/back2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 530px;
+}
+
+body{
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mgTop{
+    margin-top: 30px;
+}
+
+.nature{
+    background-image: url(../images/portfolio/1.jpg);
+}
+
+.events{
+    background-image: url(../images/portfolio/2.jpg);
+}
+
+.music{
+    background-image: url(../images/portfolio/3.jpg);
+}
+
+.vintage{
+    background-image: url(../images/portfolio/4.jpg);
+}
+
+.typers{
+    background-image: url(../images/portfolio/5.jpg);
+}
+
+.hotel{
+    background-image: url(../images/portfolio/6.jpg);
+}
+
+.bg-size{
+    padding: 100px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.flexx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgg{
+    height: 100px;
+}
+
+.bgYellow{
+    background-image: url(../images/lab.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.transp{
+    height: 100%;
+    background-color: rgba(255, 153, 0, 0.5);
+    color: white;
+    padding: 20px 0;
+}
