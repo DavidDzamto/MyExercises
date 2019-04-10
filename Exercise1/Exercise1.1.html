@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Red Abbey Resort </title>
+        <meta name = "keywords" content = "Vecation,Abbey,Resort">
+        <meta name = "description" content = "Great vecation resort">
+        <meta name = "author" content = "David Dzamto">
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h2> Reserving a Room at Red Abbey Resort </h2>
+            <h3> Rooms and Prices </h3>
+            <table border = "1" cellpadding = "10px">
+                <caption> Our Guest Rooms </caption>
+                <thead>
+                    <tr>
+                        <th> Room Type </th>
+                        <th> Maximum Occupancy </th>
+                        <th> Average Price Per Night </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> Attic Room </td>
+                        <td> 1 </td>
+                        <td> 100 $ </td>
+                    </tr>
+                    <tr>
+                        <td> Standard Room </td>
+                        <td> 2 </td>
+                        <td> 170 $ </td>
+                    </tr>
+                    <tr>
+                        <td> Garden View Suite </td>
+                        <td> 4 </td>
+                        <td> 220 $ </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3> Submit a Reservation Request </h3>
+            <form>
+                <label for = "firstName"> First Name </label>
+                <input type = "text" name = "firstName" id = "firstName"><br><br>
+                <label for = "lastName"> Last Name </label>
+                <input type = "text" name = "lastName" id = "lastName"><br><br>
+                <label for = "phoneNumber"> Phone Number </label>
+                <input type = "number" name = "phoneNumber" id = "phoneNumber"><br><br>
+                <label for = "email"> Email </label>
+                <input type = "email" name = "email" id = "email"><br><br>
+                <text> Male or Female? </text><br><br>
+                <label for = "Male"> Male </label>
+                <input type = "radio" name = "maleFemale" id = "Male">
+                <label for = "Female"> Female </label>
+                <input type = "radio" name = "maleFemale" id = "Female"><br><br>
+            
+                  <fieldset>
+                <legend> Preferred room type </legend>
+                
+                    <label for = "roomType1"> Attic Room </label>
+                    <input type = "radio" name = "roomType" id = "roomType1">
+                    <label for = "roomType2"> Standard Room </label>
+                    <input type = "radio" name = "roomType" id = "roomType2">
+                    <label for = "roomType3"> Garden View Suite </label>
+                    <input type = "radio" name = "roomType" id = "roomType3">
+                
+                 </fieldset><br>
+            
+                 <label for = "checkIn"> Check In </label>
+                 <input type = "date" name = "checkIn" id = "checkIn"><br><br>
+                 <label for = "checkOut"> Check Out </label>
+                 <input type = "date" name = "checkOut" id = "checkOut"><br><br>
+
+                 <label for = "textArea"> Comment or Special Request </label><br>
+                 <textarea cols = "29" rows = "9" id = "textArea"></textarea><br><br>
+             
+                 <input type = "submit" value = "Submit Request">
+            </form>
+            <h5> Reservations must be made <i> at least </i> 30 days in advance. </h5>
+            <a href = "Exercise1.html"> Return to Home Page </a>
+        </div>
+    </body>
+</html>
