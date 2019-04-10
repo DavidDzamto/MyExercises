@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+}
+
+.main{
+    background-color: blue;
+    padding: 2% 8%;
+}
+
+.firstDiv{
+    background-color: white;
+    border: 0px solid white;
+    border-radius: 3%;
+    padding-bottom: 2%;
+    height: 820px;
+}
+
+.h3{
+    float: left;
+    margin-left: 4%;
+    margin-top: 0.7%;
+}
+
+.search{
+    margin-left: 4%; 
+    margin-top: 0.3%;
+    margin-bottom: 0.5%;
+    float: left;
+    padding: 0.5% 0% 0.5% 2.5%;
+}
+
+.secondDiv{
+    position: relative;
+    padding: 3% 3% 6% 3%;
+    border-bottom: 2px solid #aaa;
+}
+
+.fa{
+    position: absolute;
+    left: 0;
+    top: 0.1%;
+    margin-left: 18.8%;
+    color: #aaa;
+    padding-top: 4.1%;
+    font-size: 65%;
+    
+}
+
+.firstSpan{
+    float: left;
+    margin-left: 3%;
+    margin-top: 0.7%;
+}
+
+.secondSpan{
+    float: left;
+    margin-left: 30%;
+    margin-top: 0.7%;
+}
+
+.firstButton{
+    float: left;
+    margin-left: 0.9%;
+    margin-top: 0.4%;
+    color: blue;
+    background-color: rgba(127, 255, 212, 0.507);
+    border: 0px;
+    padding: 0.4% 1%;
+}
+
+.disturbed{
+    float: right;
+    width: 3%;
+    border-radius: 50%;
+   
+}
+
+.info{
+    height: 300px;
+}
+
+.firstDisturbed{
+    width: 17%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 4%;
+
+}
+
+.david{
+    float: left;
+    font-size: 20px;
+    margin-left: 7%;
+    margin-top: 2.5%;
+}
+
+.su{
+    float: left;
+    color: #aaa;
+    font-size: 10px;
+    margin-top: 3.2%;
+    margin-left: 3%;
+}
+
+.visible{
+    float: right;
+    visibility: hidden;
+}
+
+.product{
+    float: left;
+    margin-left: 7%;
+    color: blue;
+}
+
+.visible1{
+    float: right;
+    visibility: hidden;
+}
+
+.rank{
+    float: left;
+    margin-left: 7.1%;
+    color: #aaa;
+    font-size: 9px;
+}
+
+.visible2{
+    float: right;
+    visibility: hidden;
+}
+
+.numb{
+    float: left;
+    margin-left: 7%;
+    margin-top: 0.5%;
+}
+
+.visible3{
+    float: right;
+    visibility: hidden;
+}
+
+.fas{
+    float: left;
+    margin-left: 7%;
+    font-size: 14px;
+    margin-top: 0.6%;
+    margin-right: 0.4%;
+}
+
+.message{
+    float: left;
+    margin-top: 0.4%;
+}
+
+.name{
+    position: relative;
+}
+
+.far{
+    position: absolute;
+    left: 0;
+    padding-top: 12.6%;
+    margin-left: 41%;
+    color: blue;
+}
+
+.button1{
+    float: left;
+    margin-left: 3%;
+    background-color: aquamarine;
+    color: blue;
+    border: 0px;
+    padding: 0.5% 1% 0.5% 2.5%;
+}
+
+.user{
+    float: left;
+    color: #aaa;
+    font-size: 10px;
+    margin-top: 0.8%;
+    margin-left: 3%;
+    
+}
+
+.visible4{
+    float: right;
+    visibility: hidden;
+}
+
+.visible5{
+    float: right;
+    visibility: hidden;
+}
+
+.name1{
+    position: relative;
+    width: 75%;
+    float: left;
+    color: #aaa;
+}
+
+.visible6{
+    float: left;
+    margin-left: 1.5%;
+    visibility: hidden;
+}
+
+.timeLine{
+    float: left;
+    color: #aaa;
+    margin-left: 0.5%;
+    margin-top: 0.1%;
+}
+
+.fab{
+    position: absolute;
+    float: left;
+    margin-left: 6%;
+    color: black;
+}
+
+.about{
+    float: left;
+    margin-left: 0.9%;
+    color: black;
+    margin-left: 6%;
+    padding-bottom: 1.2%;
+    padding-left: 3%;
+    background-color: white;
+    border: 0px;
+    border-bottom: 1.5px solid blue;
+}
+
+.hr{
+    margin-top: 3.26%;
+    margin-left: 9%;
+}
+
+.visible7{
+    float: right;
+    visibility: hidden;
+}
+
+.work{
+    float: left;
+    margin-left: 3.9%;
+    margin-top:2%;
+    font-size: 8px;
+    color: #aaa;
+}
+
+.contact{
+    float: right;
+    margin-right: 64%;
+    margin-top: 1%;
+    font-size: 8px;
+    color: #aaa;
+
+}
+
+.visible8{
+    float: right;
+    visibility: hidden;
+}
+
+.ny{
+    float: left;
+    margin-top:2%;
+    margin-left:4%;
+}
+
+.primary{
+    float: left;
+    margin-top: 1.5%;
+    margin-left:2%;
+    background-color: aquamarine;
+    border: 0px;
+    padding: 0.5% 1%;
+    color: blue;
+}
+
+.phone{
+    float: left;
+    margin-left: 6%;
+}
+
+.phone1{
+    float: left;
+    margin-left: 5%;
+    color: blue;
+}
+
+.visible9{
+    float: right;
+    visibility: hidden;
+}
+
+.street{
+    float: left;
+    margin-top: 1%;
+    margin-left: 4%;
+    color: #aaa;
+}
+
+.adres{
+    float: left;
+    margin-top: 0.5%;
+    margin-left: 14%;
+}
+
+.addres{
+    float: left;
+    margin-left: 4%;
+    margin-top: 0.5%;
+}
+
+.visible10{
+    float: right;
+    visibility: hidden;
+}
+
+.nyy{
+    float: left;
+    color: #aaa;
+    margin-left: 4%;
+}
+
+.address{
+    float: left;
+    margin-left:38%;
+}
+
+.visible11{
+    float: right;
+    visibility: hidden;
+}
+
+.metro{
+    float: left;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.sec{
+    background-color: aquamarine;
+    border: 0px;
+    color: blue;
+    float: left;
+    padding: 0.5% 1%;
+    margin-top: 2.8%;
+    margin-left: 4.5%;
+}
+
+.el{
+    float: left;
+    margin-top: 2%;
+    margin-left: 4.8%;
+}
+
+.ell{
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+    color: blue;
+}
+
+.visible12{
+    float: right;
+    visibility: hidden;
+}
+
+.mus{
+    float: left;
+    margin-left:4%;
+}
+
+.site{
+    float: left;
+    margin-left: 19.7%;
+}
+
+.jer{
+    float: left;
+    color: blue;
+    margin-left: 6.5%;
+}
+
+.visible13{
+    float: right;
+    visibility: hidden;
+}
+
+.thh{
+    float: left;
+    color: #aaa;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+.basicc{
+    float: left;
+    color: #aaa;
+    font-size: 11px;
+    margin-top: 3.8%;
+    margin-left: 4%;
+}
+
+.visible14{
+    float: right;
+    visibility: hidden;
+}
+
+.skil{
+    float: left;
+    color: #aaa;
+    font-size: 12px;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.birth{
+    float: left;
+    margin-top: 4%;
+    margin-left: 4.8%;
+}
+
+.birthh{
+    float: left;
+    margin-top: 2.8%;
+    margin-left: 5%;
+}
+
+.visible15{
+    float: right;
+    visibility: hidden;
+}
+
+.posled{
+    float: left;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.posleden{
+    float: left;
+    margin-left: 15.6%;
+    margin-top: 2%;
+}
+
+.posledenn{
+    float: left;
+    margin-left: 5.8%;
+    margin-top: 2%;
+}
