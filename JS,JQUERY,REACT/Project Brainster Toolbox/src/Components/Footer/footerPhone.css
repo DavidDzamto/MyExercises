@@ -1,0 +1,44 @@
+@media only screen and (max-width: 320px) and (min-width: 0px){
+    
+    .navFooterPhone b {
+        font-size: 12px;
+    }
+
+    .footerLogo{
+        height: 30px;
+        transform: none;
+    }
+
+    .footerBgSolid{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 321px){
+    
+    .navFooterPhone b {
+        font-size: 14px;
+    }
+
+    .footerLogo{
+        height: 30px;
+        transform: none;
+    }
+
+    .footerBgSolid{
+        display: none;
+    }
+
+    .footerBgTrans{
+        height: 200px;
+    }
+
+    .footerLogoTrans{
+        transform:translate(148px, 90px);
+    }
+
+    .aULink{
+        margin-left: 58px;
+    }
+}
+

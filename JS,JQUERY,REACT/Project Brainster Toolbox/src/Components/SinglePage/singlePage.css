@@ -1,0 +1,185 @@
+.bgImageSingle{
+    position: absolute;
+    width: 100%;
+    height: 670px;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+    transform: translateY(-71px);
+    object-fit: cover;
+}
+
+.singlePageImgDiv{
+    height: 670px;
+    margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 425px) and (min-width: 0px){
+
+    .bgImageSingle{
+        height: 280px;
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    }
+
+    .singlePageImgDiv{
+        height: 220px;
+    }
+    
+    .footerHeaderSingle{
+        height: 670px;
+        transform: translateY(-120px);
+    }
+
+    .bgHeaderFooterSingle{
+        margin-top: 80px;
+    }
+
+    .singleParentDiv{
+        height: 2500px;
+    }
+
+    .timeFrameDiv{
+       display: flex;
+       flex-direction: column;
+    }
+
+    .singleParentDiv{
+        height: 2000px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) and (min-width: 0px){
+
+    .bgHeaderFooterSingle p {
+        font-size: 12px;
+    }
+
+    .bgHeaderFooterSingle button {
+        font-size: 12px;
+    }
+
+    .navBtns{
+        transform: translateX(-23px);
+        width: 320px;
+    }
+
+    .navBtns b {
+        font-size: 11px;
+    }
+
+    .footerHeaderSingle{
+        height: 650px;
+        transform: translateY(-100px);
+    }
+
+    .bgHeaderFooterSingle{
+        margin-top: 80px;
+    }
+
+    .singleParentDiv{
+        height: 2500px;
+    }
+
+    .singleGrBtns{
+        display: block !important;
+        position: absolute;
+        transform: translate(-10px, 20px);
+    }
+
+    .singleGrBtns b {
+        font-size: 11px;
+    }
+
+    .singlePageImgDiv{
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 376px){
+    .singleParentDiv{
+        height: 2350px;
+    }
+
+    .singleGrBtns{
+        display: block !important;
+        position: absolute;
+        transform: translate(25px, 20px);
+    }
+
+    .singleGrBtns b {
+        font-size: 13px;
+    }
+
+    .footerHeaderSingle{
+        height: 690px;
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 321px){
+    .singleGrBtns{
+        display: block !important;
+        position: absolute;
+        transform: translate(0px, 20px);
+    }
+
+    .singleGrBtns b {
+        font-size: 13px;
+    }
+
+    .singleParentDiv{
+        height: 2350px;
+    }
+
+    .footerHeaderSingle{
+        height: 690px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px){
+    .timeFrameDiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .singlePageImgDiv{
+        height: 420px;
+    }
+
+    .bgImageSingle{
+        height: 450px;
+    }
+
+    .singleGrBtns{
+        display: block !important;
+        position: absolute;
+        transform: translate(170px, 60px);
+    }
+
+    .footerHeaderSingle{
+        height: 420px;
+        transform: translateY(-100px);
+    }
+
+    .footerBgSolid{
+        transform: translateY(-100px);
+    }
+
+    .singleParentDiv{
+        height: 1800px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+    .singleGrBtns{
+        display: block !important;
+        position: absolute;
+        transform: translate(630px, -55px);
+    }
+
+    .singleGrBtns b {
+        font-size: 14px;
+    }
+
+    .bgHeaderFooterSingle{
+        margin-top: 200px;
+    }
+
+}

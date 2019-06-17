@@ -1,0 +1,106 @@
+.bgNavSolid{
+    background-color: rgb(79, 8, 160);
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.bgNavSolidTransparent{
+    background-color: transparent;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 99;
+}
+
+.logo{
+    height: 40px;
+    transform: translateX(20px);
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.btnBlack{
+    background-color: black;
+    color: rgb(255, 196, 0);
+    margin-left: 15px;
+    border-color: black;
+}
+
+.btnBlack:hover{
+    background-color: black;
+}
+
+
+.bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 20px;
+    left: 36px;
+    top: 36px;
+    transform: translateY(-12px);
+}
+
+.bm-burger-bars {
+    background: rgb(255, 196, 0);
+}
+
+.bm-morph-shape {
+    fill: white;
+}
+
+.bm-menu {
+    background: white;
+}
+
+
+.bm-cross-button{
+    margin-top: 12px;
+    transform: translate(-65px, 2px);
+}
+
+.bm-cross{
+    background-color: black;
+    height: 20px !important;
+}
+
+.bm-item{
+    outline: none;
+}
+
+.menuDivs{
+    border-bottom: 1px solid rgba(170, 170, 170, 0.589);
+    padding-left: 15px;
+    padding-right: 171px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.menuLogo{
+    height: 30px;
+    margin-left: 15px;
+}
+
+.closeSpan{
+    position: absolute;
+    transform: translateX(110px);
+}
+
+.closeSpan:hover {
+    cursor: pointer;
+}
+
+.navLinks{
+    color: black;
+}
+
+.navLinks:hover {
+    text-decoration: none;
+    color: rgba(36, 145, 173);
+    cursor: pointer;
+}
+
+.navBtns{
+    transform: translateX(230px);
+}

@@ -1,0 +1,42 @@
+@media only screen and (max-width: 768px) and (min-width: 426px){
+    .footerHeader{
+        height: 700px;
+        transform: translateY(-20px);
+    }
+
+    .footerHeaderBg{
+        height: 900px;
+    }
+
+    .h2HeaderTablet{
+        margin: 0;
+    }
+
+    .homePageDiv{
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+    .cardsContainer{
+        height: 1850px;
+    }
+
+    .footerHeader{
+        height: 600px;
+    }
+
+    .h2Header{
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1441px){
+    .bgHeaderFooterSingle{
+        margin-top: 220px;
+    }
+
+    .footerHeaderSingle{
+        height: 600px;
+    }
+}

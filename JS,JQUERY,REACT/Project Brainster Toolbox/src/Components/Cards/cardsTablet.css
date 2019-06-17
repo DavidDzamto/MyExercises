@@ -1,0 +1,6 @@
+@media only screen and (max-width: 768px) and (min-width: 426px){
+    .cardsContainer{
+        transform: translateY(-430px);
+        height: 3200px;
+    }
+}

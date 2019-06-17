@@ -1,0 +1,30 @@
+@media only screen and (max-width: 320px) and (min-width: 0px){
+    .cardsContainer{
+        transform: none;
+        height: 3290px;
+    }
+
+    .cardsImgs{
+        display: none;
+    }
+
+    .cards{
+        height: 155px;
+    }
+
+}
+
+@media only screen and (max-width: 425px) and (min-width: 321px){
+    .cardsContainer{
+        transform: none;
+        height: 3100px;
+    }
+
+    .cardsImgs{
+        display: none;
+    }
+
+    .cards{
+        height: 145px;
+    }
+}

@@ -1,0 +1,150 @@
+@media only screen and (max-width: 320px) and (min-width: 0px){
+    .footerHeaderBg{
+        transform: skewY(-17deg);
+    }
+
+    .bottomLogoPhone{
+        margin-top: 50px;
+    }
+
+    .footerSpanPhone{
+        margin-left: 78px;
+        transform: translateY(-6px);
+    }
+
+    .footerSpansPhone{
+        margin-left: 30px;
+    }
+
+    .firstDivPhone{
+        margin-left: 45px;
+    }
+
+    .footerIconsPhone{
+        font-size: 30px;
+        color: rgb(255, 196, 0);
+    }
+
+    .footerHeader{
+        height: 660px;
+    }
+
+    .bgHeaderFooter{
+        margin-top: 100px;
+    }
+
+    .bgHeaderFooter p {
+        font-size: 12px;
+    }
+
+    .bgHeaderFooter button {
+        font-size: 12px;
+    }
+
+    .navFooterPhone{
+        display: block !important;
+        margin-top: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 425px) and (min-width: 376px){
+    .footerHeaderBg{
+        transform: skewY(-17deg);
+    }
+
+    .bottomLogoPhone{
+        margin-top: 60px;
+    }
+
+    .footerSpanPhone{
+        margin-left: 130px;
+        transform: translateY(-6px);
+    }
+
+    .footerSpansPhone{
+        margin-left: 30px;
+    }
+
+    .firstDivPhone{
+        margin-left: 87px;
+    }
+
+    .footerIconsPhone{
+        font-size: 30px;
+        color: rgb(255, 196, 0);
+    }
+
+    .footerHeader{
+        height: 660px;
+    }
+
+    .bgHeaderFooter{
+        margin-top: 100px;
+    }
+
+    .bgHeaderFooter p {
+        font-size: 12px;
+    }
+
+    .bgHeaderFooter button {
+        font-size: 12px;
+    }
+
+    .navFooterPhone{
+        display: block !important;
+        margin-top: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 375px) and (min-width: 321px){
+
+    .footerHeaderBg{
+        transform: skewY(-17deg);
+    }
+
+    .bottomLogoPhone{
+        margin-top: 60px;
+    }
+
+    .footerSpanPhone{
+        margin-left: 105px;
+        transform: translateY(-6px);
+    }
+
+    .footerSpansPhone{
+        margin-left: 30px;
+    }
+
+    .firstDivPhone{
+        margin-left: 65px;
+    }
+
+    .footerIconsPhone{
+        font-size: 30px;
+        color: rgb(255, 196, 0);
+    }
+
+    .footerHeader{
+        height: 660px;
+    }
+
+    .bgHeaderFooter{
+        margin-top: 100px;
+    }
+
+    .bgHeaderFooter p {
+        font-size: 12px;
+    }
+
+    .bgHeaderFooter button {
+        font-size: 12px;
+    }
+
+    .navFooterPhone{
+        display: block !important;
+        margin-top: 50px;
+    }
+
+}

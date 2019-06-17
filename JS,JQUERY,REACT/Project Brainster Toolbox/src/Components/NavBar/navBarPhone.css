@@ -1,0 +1,73 @@
+@media only screen and (max-width: 320px) and (min-width: 0px){
+    .navBtns{
+        display: none;
+    }
+
+    .logo{
+        height:30px;
+        transform: translate(88px,-28px);
+    }
+
+    .bgNavSolid{
+        height: 46px;
+        border: none;
+    }
+    
+    .bgNavSolidTransparent{
+        height: 46px;
+        border: none;
+    }
+
+    .bm-burger-button{
+        height: 18px;
+        transform: translate(-18px, -12px);
+    }
+
+    .bgNavSolid span {
+        margin: 32px !important;
+        font-size: 13px;
+    }
+
+    .bgNavSolidTransparent span {
+        margin: 32px !important;
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width: 425px) and (min-width: 321px){
+    .navBtns{
+        display: none;
+    }
+
+    .logo{
+        height:30px;
+        transform: translate(5px,-28px);
+    }
+
+    .bgNavSolid{
+        height: 66px;
+        border: none;
+    }
+    
+    .bgNavSolidTransparent{
+        height: 66px;
+        border: none;
+    }
+
+    .bm-burger-button{
+        height: 18px;
+        transform: translate(-18px, -12px);
+    }
+
+    .bgNavSolid span {
+        margin: 32px !important;
+        font-size: 13px;
+    }
+
+    .bgNavSolidTransparent span {
+        margin: 32px !important;
+        font-size: 13px;
+    }
+
+}

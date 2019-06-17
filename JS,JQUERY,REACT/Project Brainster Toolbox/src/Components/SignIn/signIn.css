@@ -1,0 +1,79 @@
+.signInForm{
+    border: 1px solid rgba(170, 170, 170, 0.5);
+    border-radius: 2%;
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+.signInDivLogo{
+    transform: translateX(10px);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.signInBgImg{
+    background-image: url("../../Imgs/bros.jpeg");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.signInBg{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.signInUser{
+    font-size: 50px;
+}
+
+.signInUserDiv{
+    border: 1px solid rgba(170, 170, 170, 0.5);
+    border-radius: 2px;
+    width: 65px;
+    padding: 10px;
+    transform: translateX(20px);
+    margin-left: 85px;
+}
+
+.signInContainer{
+    padding-top: 76px; 
+    padding-bottom: 76px;
+}
+
+@media only screen and (max-width: 320px) and (min-width: 0px){
+    .signInUserDiv{
+        margin-left: 50px; 
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 321px){
+    .signInUserDiv{
+        margin-left: 75px; 
+    }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 376px){
+    .signInUserDiv{
+        margin-left: 100px; 
+    }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 0px){
+    .signInContainer{
+        padding-top:50px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px){
+    .signInUserDiv{
+        margin-left: 17px; 
+    }
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+    .signInUserDiv{
+        margin-left: 58px; 
+    }
+}

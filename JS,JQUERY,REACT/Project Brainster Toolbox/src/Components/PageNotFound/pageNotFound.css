@@ -1,0 +1,25 @@
+.bgPageNotFound{
+    background-image: url("../../Imgs/gif.gif");
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 375px) and (min-width: 0px){
+    .bgPageNotFound{
+        background-position: 17% top;
+    }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 376px){
+    .bgPageNotFound{
+        background-position: 15% top;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px){
+    .bgPageNotFound{
+        background-position: 25% top;
+    }
+}

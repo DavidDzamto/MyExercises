@@ -1,0 +1,46 @@
+@media only screen and (max-width: 768px) and (min-width: 426px){
+    .fSLinks {
+        margin-left: 15px;
+        transform: translateY(-3px);
+    }
+
+    .footerSpan{
+        margin-left: 65px;
+    }
+
+    .footerLogo{
+        transform: translate(-23px,-10px);
+    }
+
+    .allIcons{
+        transform: translate(-73px,-5px);
+    }
+
+    .linkIcons{
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+    .footerSpan{
+        margin-left: 30px;
+    }
+
+    .footerSpans{
+        margin-left: 44px;
+    }
+
+    .footerLogo{
+        transform: translate(0px,-8px);
+    }
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1441px){
+    .footerLogo{
+        transform: translate(120px,-8px);
+    }
+
+    .footerSpan{
+        margin-left: 360px;
+    }
+}

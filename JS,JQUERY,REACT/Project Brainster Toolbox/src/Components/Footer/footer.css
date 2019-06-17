@@ -1,0 +1,55 @@
+.footerBgSolid{
+    height: 80px;
+    background-color: rgb(79, 8, 160);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    color: white;
+    padding-top: 30px; 
+}
+
+.footerBgTrans{
+    height: 80px;
+    background-color: transparent;
+    border-top: 1px solid rgba(0, 0, 0, 0.7);
+    color: white;
+    padding-top: 30px; 
+}
+
+.footerIcons{
+    color: rgb(255, 196, 0);
+    font-size: 30px;
+}
+
+.footerSpans{
+    margin-left: 50px;
+}
+
+.footerSpan{
+    margin-left: 50px;
+    transform: translateY(-8px);
+}
+
+.footerIcons:hover{
+    color: yellow;
+}
+
+.gallery{
+    color: white;
+}
+
+.gallery:hover{
+    text-decoration: none;
+    color: rgba(36, 145, 173);
+}
+
+.footerLogo{
+    height: 40px;
+    transform: translate(20px,-8px);
+}
+
+.footerLogo:hover{
+    cursor: pointer;
+}
+
+.aULink{
+    margin-left: 75px;
+}

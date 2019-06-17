@@ -1,0 +1,118 @@
+@media only screen and (max-width: 320px) and (min-width: 0px){
+    .headerBtns{
+        display: block;
+        margin-top: 25px;
+        display: flex;
+       transform: translateX(-5px);
+    }
+
+    .headerBtnsA{
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+
+    .h2Header{
+        font-size: 25px;
+    }
+
+    .bgHeader span {
+        font-size: 11px;
+    }
+
+    .bgHeader p {
+        font-size: 12px;
+    }
+
+    .bgHeader b {
+        font-size: 11px;
+    }
+
+    .bgHeader button {
+        padding: 0 10px 5px;
+    }
+
+    .h2Header{
+        margin-top: 20px;
+    }
+
+    .assessRow{
+        padding: 0 !important;
+    }
+
+    .header{
+        height: 400px;
+    }
+
+    .brainAndH2{
+        transform: translateY(-10px);
+    }
+
+}
+
+@media only screen and (max-width: 425px) and (min-width: 321px){
+    .headerBtns{
+        display: block;
+        margin-top: 25px;
+        display: flex;
+        margin-left: 17px;
+    }
+
+    .headerBtnsA{
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+
+    .h2Header{
+        font-size: 25px;
+    }
+
+    .bgHeader span {
+        font-size: 14px;
+    }
+
+    .bgHeader p {
+        font-size: 14px;
+    }
+
+    .bgHeader b {
+        font-size: 14px;
+    }
+
+    .bgHeader button {
+        padding: 0 10px 5px;
+    }
+
+    .h2Header{
+        margin-top: 20px;
+    }
+
+    .assessRow{
+        padding: 0 !important;
+    }
+
+    .header{
+        height: 400px;
+    }
+
+    .brainAndH2{
+        transform: translateY(-25px);
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 321px){
+    .headerBtns{
+        margin-left: 2px;
+    }
+
+    .bgHeader span {
+        font-size: 13px;
+    }
+
+    .bgHeader b {
+        font-size: 13px;
+    }
+
+    .bgHeader p {
+        font-size: 13px;
+    }
+}
