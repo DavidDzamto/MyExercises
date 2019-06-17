@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>AJAX</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <h1>Check the weather in your city!</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 offset-md-4" id="error">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-2">
+                    <input type="text" name="" id="input" placeholder="Enter City" class="form-control mt-2">
+                </div>
+                <div class="col-md-2">
+                    <input type="number" name="" id="numInput" placeholder="Forecast Days" class="form-control mt-2">
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-success mt-2" id="btn">Check Weather</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 offset-4 mt-4" style="margin-left:34%;" id="weatherFor">
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 offset-2" style="margin-left: 22%;">
+                    <table class="table table-bordered table-striped text-center" style="visibility:hidden;">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Day</td>
+                                <th>Weather</td>
+                                <th>Temperature</td>
+                                <th>Wind</td>
+                                <th>Humidity</td>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+
+    </body>
+    <script src="SatHomework4.js"></script>
+</html>
